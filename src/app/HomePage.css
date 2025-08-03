@@ -1,0 +1,63 @@
+.homepage-root {
+  min-height: 100vh;
+  background: #0f0f0f;
+  color: white;
+}
+
+.homepage-flex {
+  display: flex;
+}
+
+.homepage-main {
+  flex: 1;
+  padding: 1rem;
+}
+
+.offline-container {
+  text-align: center;
+  margin-top: 5rem;
+  color: white;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offline-image {
+  border-radius: 50%;
+}
+
+.offline-title {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.offline-message {
+  margin-bottom: 1rem;
+}
+
+.offline-retry {
+  color: #3b82f6;
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.offline-retry:hover {
+  background: #263850;
+}
+
+.offline-download {
+  color: #3fee0a;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  transition: background 0.2s;
+}
+
+.offline-download:hover {
+  background: #263850;
+}

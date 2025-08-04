@@ -16,7 +16,6 @@ async function VideoDetail({ id }: { id: string }) {
 
   return (
     <div className="video-detail-root">
-      <Navbar />
       <div className="video-detail-flex">
         <main className="video-detail-main">
           <div className="video-detail-player">
